@@ -16,11 +16,9 @@ let package = Package(name: "FFmpeg", platforms: [.iOS(.v13)], products: [
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(name: "Depend", linkerSettings: [
             .linkedLibrary("z"),
-                                                 .linkedLibrary("bz2"),
-                                                 .linkedLibrary("iconv")
+            .linkedLibrary("bz2"),
+            .linkedLibrary("iconv")
         ]),
-//        .linkedFramework
-//        .target(name: "Depend", linkedFramework),
         .binaryTarget(name: "FFmpeg",
                       url: "https://github.com/swp-song/FFmpeg/releases/download/1.2.0/FFmpeg.xcframework.zip",
                       checksum: "9fbd639d92365cfc9cb0de26a0908076d7f65ca847d52de908eecbb6da10decb"),
