@@ -14,7 +14,7 @@
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/swp-song/FFmpeg.git", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/swp-song/FFmpeg.git", .upToNextMajor(from: "1.5.0"))
 ]
 ```
 
