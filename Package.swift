@@ -16,6 +16,6 @@ let package = Package(name: "FFmpeg", platforms: [.iOS(.v13)], products: [
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(name: "FFmpeg",
                       url: "https://github.com/swp-song/FFmpeg/releases/download/1.0.0/FFmpeg.xcframework.zip",
-                      checksum: "9fbd639d92365cfc9cb0de26a0908076d7f65ca847d52de908eecbb6da10decb"),
+                      checksum: "47700ddddc97a54c019e734c9f3eba22ddad16ac3ce9b1812c7d56b40864876f"),
     ]
 )
