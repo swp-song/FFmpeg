@@ -20,7 +20,7 @@ let package = Package(name: "FFmpeg", platforms: [.iOS(.v13)], products: [
             .linkedLibrary("iconv")
         ]),
         .binaryTarget(name: "FFmpeg",
-                      url: "https://github.com/swp-song/FFmpeg/releases/download/1.2.0/FFmpeg.xcframework.zip",
+                      url: "https://github.com/swp-song/FFmpeg/releases/download/1.5.0/FFmpeg.xcframework.zip",
                       checksum: "9fbd639d92365cfc9cb0de26a0908076d7f65ca847d52de908eecbb6da10decb"),
         
     ]
